@@ -1,0 +1,31 @@
+{
+    "format_version": "1.17.41",
+    "$schema": "https://aexer0e.github.io/bedrock-schema/",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "alchemycraft:infuse_magma"
+        },
+        "tags": ["infuser"],
+        "pattern": [
+            "III",
+            "ISI",
+            "III"
+        ],
+        "key": {
+            "I": "minecraft:magma_cream",
+            "S": "minecraft:pitcher_pod"
+        },
+        "unlock": [
+            {
+                "item": "minecraft:magma_cream"
+            },
+            {
+                "item": "minecraft:pitcher_pod"
+            }
+        ],
+        "result": {
+            "item": "alchemycraft:seed_magma",
+            "count": 1
+        }
+    }
+}

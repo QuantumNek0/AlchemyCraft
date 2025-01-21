@@ -1,0 +1,12 @@
+{
+    "format_version": "1.17.41",
+    "minecraft:recipe_brewing_mix": {
+        "description": {
+            "identifier": "alchemycraft:brew_haste_blaze_powder"
+        },
+        "tags": ["brewing_stand"],
+        "input": "alchemycraft:potion_haste_base",
+        "reagent": "minecraft:blaze_powder",
+        "output": "alchemycraft:potion_strength_base"
+    }
+}

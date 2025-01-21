@@ -1,0 +1,20 @@
+crop type1 (torch):
+	Emerald Dust
+	Quartz
+	Ghast Tear
+	Amethyst Shard
+	Echo Shard
+	Blaze Powder
+	Golden Apple
+
+crop type2 (pod):
+	Slimeball
+	Shulker Shell
+	Magma Cream
+	Armadillo Scute
+	Chorus Fruit
+	Spider Eye
+	Phantom Membrane
+	Prismarine Shard
+
+	

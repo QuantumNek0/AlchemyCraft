@@ -1,0 +1,31 @@
+{
+    "format_version": "1.17.41",
+    "$schema": "https://aexer0e.github.io/bedrock-schema/",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "alchemycraft:infuse_blaze"
+        },
+        "tags": ["infuser"],
+        "pattern": [
+            "III",
+            "ISI",
+            "III"
+        ],
+        "key": {
+            "I": "minecraft:blaze_powder",
+            "S": "minecraft:torchflower_seeds"
+        },
+        "unlock": [
+            {
+                "item": "minecraft:blaze_powder"
+            },
+            {
+                "item": "minecraft:torchflower_seeds"
+            }
+        ],
+        "result": {
+            "item": "alchemycraft:seed_blaze",
+            "count": 1
+        }
+    }
+}

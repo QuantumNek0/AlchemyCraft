@@ -1,0 +1,31 @@
+{
+    "format_version": "1.17.41",
+    "$schema": "https://aexer0e.github.io/bedrock-schema/",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "alchemycraft:infuse_phantom"
+        },
+        "tags": ["infuser"],
+        "pattern": [
+            "III",
+            "ISI",
+            "III"
+        ],
+        "key": {
+            "I": "minecraft:phantom_membrane",
+            "S": "minecraft:pitcher_pod"
+        },
+        "unlock": [
+            {
+                "item": "minecraft:phantom_membrane"
+            },
+            {
+                "item": "minecraft:pitcher_pod"
+            }
+        ],
+        "result": {
+            "item": "alchemycraft:seed_phantom",
+            "count": 1
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "format_version": "1.17.41",
+    "minecraft:recipe_brewing_mix": {
+        "description": {
+            "identifier": "alchemycraft:brew_slick_amethyst_shard"
+        },
+        "tags": ["brewing_stand"],
+        "input": "alchemycraft:potion_slick",
+        "reagent": "minecraft:amethyst_shard",
+        "output": "alchemycraft:potion_invisibility_base"
+    }
+}

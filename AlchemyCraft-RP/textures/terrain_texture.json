@@ -1,0 +1,131 @@
+{
+	"resource_pack_name": "Alchemy Craft Resource Pack",
+	"texture_name": "atlas.terrain",
+	"padding": 8,
+	"num_mip_levels": 4,
+	"texture_data": {
+		"texture_philosopher_display": {
+			"textures": "textures/blocks/alchemy_philosopher_display_texture"
+		},
+		"texture_infuser": {
+			"textures": "textures/blocks/alchemy_infuser_texture"
+		},
+		"texture_flower_type1_stage0": {
+			"textures": "textures/blocks/alchemy_flower_type1_texture_stage0"
+		},
+		"texture_flower_type2_stage0": {
+			"textures": "textures/blocks/alchemy_flower_type2_texture_stage0"
+		},
+		"texture_flower_type2_stage1": {
+			"textures": "textures/blocks/alchemy_flower_type2_texture_stage1"
+		},
+		"texture_flower_emerald_stage1": {
+			"textures": "textures/blocks/alchemy_flower_emerald_texture_stage1"
+		},
+		"texture_flower_emerald_stage2": {
+			"textures": "textures/blocks/alchemy_flower_emerald_texture_stage2"
+		},
+		"texture_flower_diamond_stage1": {
+			"textures": "textures/blocks/alchemy_flower_diamond_texture_stage1"
+		},
+		"texture_flower_diamond_stage2": {
+			"textures": "textures/blocks/alchemy_flower_diamond_texture_stage2"
+		},
+		"texture_flower_redstone_stage1": {
+			"textures": "textures/blocks/alchemy_flower_redstone_texture_stage1"
+		},
+		"texture_flower_redstone_stage2": {
+			"textures": "textures/blocks/alchemy_flower_redstone_texture_stage2"
+		},
+		"texture_flower_spider_stage2": {
+			"textures": "textures/blocks/alchemy_flower_spider_texture_stage2"
+		},
+		"texture_flower_spider_stage3": {
+			"textures": "textures/blocks/alchemy_flower_spider_texture_stage3"
+		},
+		"texture_flower_amethyst_stage1": {
+			"textures": "textures/blocks/alchemy_flower_amethyst_texture_stage1"
+		},
+		"texture_flower_amethyst_stage2": {
+			"textures": "textures/blocks/alchemy_flower_amethyst_texture_stage2"
+		},
+		"texture_flower_apple_stage1": {
+			"textures": "textures/blocks/alchemy_flower_apple_texture_stage1"
+		},
+		"texture_flower_apple_stage2": {
+			"textures": "textures/blocks/alchemy_flower_apple_texture_stage2"
+		},
+		"texture_flower_blaze_stage1": {
+			"textures": "textures/blocks/alchemy_flower_blaze_texture_stage1"
+		},
+		"texture_flower_blaze_stage2": {
+			"textures": "textures/blocks/alchemy_flower_blaze_texture_stage2"
+		},
+		"texture_flower_echo_stage1": {
+			"textures": "textures/blocks/alchemy_flower_echo_texture_stage1"
+		},
+		"texture_flower_echo_stage2": {
+			"textures": "textures/blocks/alchemy_flower_echo_texture_stage2"
+		},
+		"texture_flower_ghast_stage1": {
+			"textures": "textures/blocks/alchemy_flower_ghast_texture_stage1"
+		},
+		"texture_flower_ghast_stage2": {
+			"textures": "textures/blocks/alchemy_flower_ghast_texture_stage2"
+		},
+		"texture_flower_quartz_stage1": {
+			"textures": "textures/blocks/alchemy_flower_quartz_texture_stage1"
+		},
+		"texture_flower_quartz_stage2": {
+			"textures": "textures/blocks/alchemy_flower_quartz_texture_stage2"
+		},
+		"texture_flower_glowstone_stage2": {
+			"textures": "textures/blocks/alchemy_flower_glowstone_texture_stage2"
+		},
+		"texture_flower_glowstone_stage3": {
+			"textures": "textures/blocks/alchemy_flower_glowstone_texture_stage3"
+		},
+		"texture_flower_armadillo_stage2": {
+			"textures": "textures/blocks/alchemy_flower_armadillo_texture_stage2"
+		},
+		"texture_flower_armadillo_stage3": {
+			"textures": "textures/blocks/alchemy_flower_armadillo_texture_stage3"
+		},
+		"texture_flower_chorus_stage2": {
+			"textures": "textures/blocks/alchemy_flower_chorus_texture_stage2"
+		},
+		"texture_flower_chorus_stage3": {
+			"textures": "textures/blocks/alchemy_flower_chorus_texture_stage3"
+		},
+		"texture_flower_magma_stage2": {
+			"textures": "textures/blocks/alchemy_flower_magma_texture_stage2"
+		},
+		"texture_flower_magma_stage3": {
+			"textures": "textures/blocks/alchemy_flower_magma_texture_stage3"
+		},
+		"texture_flower_phantom_stage2": {
+			"textures": "textures/blocks/alchemy_flower_phantom_texture_stage2"
+		},
+		"texture_flower_phantom_stage3": {
+			"textures": "textures/blocks/alchemy_flower_phantom_texture_stage3"
+		},
+		"texture_flower_prismarine_stage2": {
+			"textures": "textures/blocks/alchemy_flower_prismarine_texture_stage2"
+		},
+		"texture_flower_prismarine_stage3": {
+			"textures": "textures/blocks/alchemy_flower_prismarine_texture_stage3"
+		},
+		"texture_flower_shulker_stage2": {
+			"textures": "textures/blocks/alchemy_flower_shulker_texture_stage2"
+		},
+		"texture_flower_shulker_stage3": {
+			"textures": "textures/blocks/alchemy_flower_shulker_texture_stage3"
+		},
+		"texture_flower_slime_stage2": {
+			"textures": "textures/blocks/alchemy_flower_slime_texture_stage2"
+		},
+		"texture_flower_slime_stage3": {
+			"textures": "textures/blocks/alchemy_flower_slime_texture_stage3"
+		}
+	}
+}

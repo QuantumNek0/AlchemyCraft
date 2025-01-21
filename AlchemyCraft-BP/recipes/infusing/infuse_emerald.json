@@ -1,0 +1,31 @@
+{
+    "format_version": "1.17.41",
+    "$schema": "https://aexer0e.github.io/bedrock-schema/",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "alchemycraft:infuse_emerald"
+        },
+        "tags": ["infuser"],
+        "pattern": [
+            "III",
+            "ISI",
+            "III"
+        ],
+        "key": {
+            "I": "alchemycraft:ingredient_emerald",
+            "S": "minecraft:torchflower_seeds"
+        },
+        "unlock": [
+            {
+                "item": "minecraft:torchflower_seeds"
+            },
+            {
+                "item": "alchemycraft:ingredient_emerald"
+            }
+        ],
+        "result": {
+            "item": "alchemycraft:seed_emerald",
+            "count": 1
+        }
+    }
+}

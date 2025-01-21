@@ -1,0 +1,22 @@
+{
+    "format_version": "1.17.41",
+    "$schema": "https://aexer0e.github.io/bedrock-schema/",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "alchemycraft:grind_emerald"
+        },
+        "tags": ["crafting_table"],
+        "ingredients": [
+            "minecraft:emerald"
+        ],
+        "unlock": [
+            {
+                "item": "minecraft:emerald"
+            }
+        ],
+        "result": {
+            "item": "alchemycraft:ingredient_emerald",
+            "count": 1
+        }
+    }
+}

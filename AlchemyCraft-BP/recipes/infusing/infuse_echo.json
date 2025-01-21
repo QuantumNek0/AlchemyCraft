@@ -1,0 +1,31 @@
+{
+    "format_version": "1.17.41",
+    "$schema": "https://aexer0e.github.io/bedrock-schema/",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "alchemycraft:infuse_echo"
+        },
+        "tags": ["infuser"],
+        "pattern": [
+            "III",
+            "ISI",
+            "III"
+        ],
+        "key": {
+            "I": "minecraft:echo_shard",
+            "S": "minecraft:torchflower_seeds"
+        },
+        "unlock": [
+            {
+                "item": "minecraft:echo_shard"
+            },
+            {
+                "item": "minecraft:torchflower_seeds"
+            }
+        ],
+        "result": {
+            "item": "alchemycraft:seed_echo",
+            "count": 1
+        }
+    }
+}

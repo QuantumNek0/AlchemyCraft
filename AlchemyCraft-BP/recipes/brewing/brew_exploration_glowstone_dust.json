@@ -1,0 +1,12 @@
+{
+    "format_version": "1.17.41",
+    "minecraft:recipe_brewing_mix": {
+        "description": {
+            "identifier": "alchemycraft:brew_exploration_glowstone_dust"
+        },
+        "tags": ["brewing_stand"],
+        "input": "alchemycraft:potion_exploration_base",
+        "reagent": "minecraft:glowstone_dust",
+        "output": "alchemycraft:potion_exploration_strong"
+    }
+}

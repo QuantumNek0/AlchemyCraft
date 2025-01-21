@@ -1,0 +1,100 @@
+{
+    "pools": [
+        {
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:written_book",
+					"weight": 1,
+					"count": 1,
+					"functions": [
+                        {
+                            "function": "set_book_contents",
+
+                            "author": "Quantum Cube Studios",
+                            "title": "book_guide.title",
+
+                            "pages": [
+                                "{\"rawtext\":[ {\"translate\":\"alchemy.book_guide.page.title\"}]}",
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_guide.page.intro\"}]}",
+
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_guide.page.ingredient_emerald\"}]}",
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_guide.page.grind_emerald\"}]}",
+
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_guide.page.ingredient_diamond\"}]}",
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_guide.page.grind_diamond\"}]}",
+
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_guide.page.flower_intro\"}]}",
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_guide.page.seed_intro\"}]}",
+
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_guide.page.infuser_intro\"}]}",
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_guide.page.infuser_craft\"}]}",
+
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_guide.page.amethyst_flower\"}]}",
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_guide.page.amethyst_seed\"}]}",
+
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_guide.page.apple_flower\"}]}",
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_guide.page.apple_seed\"}]}",
+
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_guide.page.armadillo_flower\"}]}",
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_guide.page.armadillo_seed\"}]}",
+
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_guide.page.blaze_flower\"}]}",
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_guide.page.blaze_seed\"}]}",
+
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_guide.page.chorus_flower\"}]}",
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_guide.page.chorus_seed\"}]}",
+
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_guide.page.diamond_flower\"}]}",
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_guide.page.diamond_seed\"}]}",
+
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_guide.page.echo_flower\"}]}",
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_guide.page.echo_seed\"}]}",
+
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_guide.page.emerald_flower\"}]}",
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_guide.page.emerald_seed\"}]}",
+
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_guide.page.ghast_flower\"}]}",
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_guide.page.ghast_seed\"}]}",
+
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_guide.page.glowstone_flower\"}]}",
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_guide.page.glowstone_seed\"}]}",
+
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_guide.page.magma_flower\"}]}",
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_guide.page.magma_seed\"}]}",
+
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_guide.page.phantom_flower\"}]}",
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_guide.page.phantom_seed\"}]}",
+
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_guide.page.prismarine_flower\"}]}",
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_guide.page.prismarine_seed\"}]}",
+
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_guide.page.quartz_flower\"}]}",
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_guide.page.quartz_seed\"}]}",
+
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_guide.page.redstone_flower\"}]}",
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_guide.page.redstone_seed\"}]}",
+
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_guide.page.shulker_flower\"}]}",
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_guide.page.shulker_seed\"}]}",
+
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_guide.page.slime_flower\"}]}",
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_guide.page.slime_seed\"}]}",
+
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_guide.page.spider_flower\"}]}",
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_guide.page.spider_seed\"}]}",
+
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_guide.page.transmutation_intro\"}]}",
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_guide.page.philosophers_craft\"}]}",
+
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_guide.page.display_craft\"}]}",
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_guide.page.transmute_coal\"}]}"
+                            ]
+                        }
+					]
+				}
+			]
+		}
+    ]
+}

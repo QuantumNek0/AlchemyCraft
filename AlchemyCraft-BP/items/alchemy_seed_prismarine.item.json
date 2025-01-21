@@ -1,0 +1,18 @@
+{
+    "format_version": "1.21.10",
+    "minecraft:item": {
+        "description": {
+            "identifier": "alchemycraft:seed_prismarine",
+            "menu_category": {
+                "category": "nature",
+                "group": "itemGroup.name.seed"
+            }
+        },
+        "components": {
+            "minecraft:icon": "texture_seed_prismarine",
+            "minecraft:block_placer": {
+                "block": "alchemycraft:flower_prismarine"
+            }
+        }
+    }
+}

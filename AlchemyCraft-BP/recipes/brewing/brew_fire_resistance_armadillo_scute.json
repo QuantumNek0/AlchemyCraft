@@ -1,0 +1,12 @@
+{
+    "format_version": "1.17.41",
+    "minecraft:recipe_brewing_mix": {
+        "description": {
+            "identifier": "alchemycraft:brew_fire_resistance_armadillo_scute"
+        },
+        "tags": ["brewing_stand"],
+        "input": "alchemycraft:potion_fire_resistance_base",
+        "reagent": "minecraft:armadillo_scute",
+        "output": "alchemycraft:potion_resistance_base"
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "format_version": "1.17.41",
+    "$schema": "https://aexer0e.github.io/bedrock-schema/",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "alchemycraft:infuse_quartz"
+        },
+        "tags": ["infuser"],
+        "pattern": [
+            "III",
+            "ISI",
+            "III"
+        ],
+        "key": {
+            "I": "minecraft:quartz",
+            "S": "minecraft:torchflower_seeds"
+        },
+        "unlock": [
+            {
+                "item": "minecraft:quartz"
+            },
+            {
+                "item": "minecraft:torchflower_seeds"
+            }
+        ],
+        "result": {
+            "item": "alchemycraft:seed_quartz",
+            "count": 1
+        }
+    }
+}

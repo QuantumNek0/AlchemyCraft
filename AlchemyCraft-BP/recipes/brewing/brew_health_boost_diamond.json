@@ -1,0 +1,12 @@
+{
+    "format_version": "1.17.41",
+    "minecraft:recipe_brewing_mix": {
+        "description": {
+            "identifier": "alchemycraft:brew_health_boost_diamond"
+        },
+        "tags": ["brewing_stand"],
+        "input": "alchemycraft:potion_health_boost_base",
+        "reagent": "alchemycraft:ingredient_diamond",
+        "output": "alchemycraft:potion_health_boost_potent3"
+    }
+}

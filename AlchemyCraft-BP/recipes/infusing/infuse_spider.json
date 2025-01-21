@@ -1,0 +1,31 @@
+{
+    "format_version": "1.17.41",
+    "$schema": "https://aexer0e.github.io/bedrock-schema/",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "alchemycraft:infuse_spider"
+        },
+        "tags": ["infuser"],
+        "pattern": [
+            "III",
+            "ISI",
+            "III"
+        ],
+        "key": {
+            "I": "minecraft:spider_eye",
+            "S": "minecraft:pitcher_pod"
+        },
+        "unlock": [
+            {
+                "item": "minecraft:pitcher_pod"
+            },
+            {
+                "item": "minecraft:spider_eye"
+            }
+        ],
+        "result": {
+            "item": "alchemycraft:seed_spider",
+            "count": 1
+        }
+    }
+}

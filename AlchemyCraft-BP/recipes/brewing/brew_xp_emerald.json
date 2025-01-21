@@ -1,0 +1,12 @@
+{
+    "format_version": "1.17.41",
+    "minecraft:recipe_brewing_mix": {
+        "description": {
+            "identifier": "alchemycraft:brew_xp_emerald"
+        },
+        "tags": ["brewing_stand"],
+        "input": "alchemycraft:potion_xp_base",
+        "reagent": "alchemycraft:ingredient_emerald",
+        "output": "alchemycraft:potion_village_hero_base"
+    }
+}

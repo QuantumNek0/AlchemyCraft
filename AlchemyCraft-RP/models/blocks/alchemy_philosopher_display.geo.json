@@ -1,0 +1,110 @@
+{
+	"format_version": "1.19.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.philosopher_display",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "stone_display",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-7, 1, -7],
+							"size": [14, 14, 14],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [16, 16]},
+								"east": {"uv": [0, 0], "uv_size": [16, 16]},
+								"south": {"uv": [0, 0], "uv_size": [16, 16]},
+								"west": {"uv": [0, 0], "uv_size": [16, 16]},
+								"up": {"uv": [16, 16], "uv_size": [-16, -16]}
+							}
+						},
+						{
+							"origin": [-7, 0, -7],
+							"size": [14, 1, 14],
+							"uv": {
+								"north": {"uv": [0, 32], "uv_size": [16, 1]},
+								"east": {"uv": [0, 32], "uv_size": [16, 1]},
+								"south": {"uv": [0, 32], "uv_size": [16, 1]},
+								"west": {"uv": [0, 32], "uv_size": [16, 1]},
+								"up": {"uv": [16, 32], "uv_size": [-16, -16]},
+								"down": {"uv": [16, 48], "uv_size": [-16, -16]}
+							}
+						}
+					]
+				},
+				{
+					"name": "stand",
+					"parent": "stone_display",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-1, 2, -1],
+							"size": [2, 3, 2],
+							"uv": {
+								"north": {"uv": [7, 36], "uv_size": [2, 3]},
+								"east": {"uv": [7, 36], "uv_size": [2, 3]},
+								"south": {"uv": [7, 36], "uv_size": [2, 3]},
+								"west": {"uv": [7, 36], "uv_size": [2, 3]}
+							}
+						},
+						{
+							"origin": [-4, 5, -4],
+							"size": [8, 1, 8],
+							"uv": {
+								"north": {"uv": [16, 16], "uv_size": [8, 1]},
+								"east": {"uv": [16, 16], "uv_size": [8, 1]},
+								"south": {"uv": [16, 16], "uv_size": [8, 1]},
+								"west": {"uv": [16, 16], "uv_size": [8, 1]},
+								"up": {"uv": [28, 28], "uv_size": [-8, -8]},
+								"down": {"uv": [28, 28], "uv_size": [-8, -8]}
+							}
+						},
+						{
+							"origin": [-2, 1, -2],
+							"size": [4, 1, 4],
+							"uv": {
+								"north": {"uv": [16, 16], "uv_size": [4, 1]},
+								"east": {"uv": [16, 16], "uv_size": [4, 1]},
+								"south": {"uv": [16, 16], "uv_size": [4, 1]},
+								"west": {"uv": [16, 16], "uv_size": [4, 1]},
+								"up": {"uv": [26, 26], "uv_size": [-4, -4]}
+							}
+						}
+					]
+				},
+				{
+					"name": "stone",
+					"parent": "stone_display",
+					"pivot": [0, 0, 0],
+					"rotation": [0, -45, 0],
+					"cubes": [
+						{
+							"origin": [-4, 6, 0],
+							"size": [8, 8, 0],
+							"uv": {
+								"north": {"uv": [16, 0], "uv_size": [16, 16]}
+							}
+						},
+						{
+							"origin": [-4, 6, 0],
+							"size": [8, 8, 0],
+							"pivot": [0, 6, 0],
+							"rotation": [0, -90, 0],
+							"uv": {
+								"north": {"uv": [16, 0], "uv_size": [16, 16]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

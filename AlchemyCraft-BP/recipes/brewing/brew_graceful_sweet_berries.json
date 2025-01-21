@@ -1,0 +1,12 @@
+{
+    "format_version": "1.17.41",
+    "minecraft:recipe_brewing_mix": {
+        "description": {
+            "identifier": "alchemycraft:brew_graceful_sweet_berries"
+        },
+        "tags": ["brewing_stand"],
+        "input": "alchemycraft:potion_graceful",
+        "reagent": "minecraft:sweet_berries",
+        "output": "alchemycraft:potion_graceful_colossus1"
+    }
+}

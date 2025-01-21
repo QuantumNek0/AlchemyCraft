@@ -1,0 +1,26 @@
+{
+    "format_version": "1.17.41",
+    "$schema": "https://aexer0e.github.io/bedrock-schema/",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "alchemycraft:craft_philosopher_stone"
+        },
+        "tags": ["crafting_table"],
+        "pattern": [
+            " S ",
+            "S S"
+        ],
+        "key": {
+            "S": "alchemycraft:philosopher_shard"
+        },
+        "unlock": [
+            {
+                "item": "alchemycraft:philosopher_shard"
+            }
+        ],
+        "result": {
+            "item": "alchemycraft:philosopher_stone",
+            "count": 1
+        }
+    }
+}

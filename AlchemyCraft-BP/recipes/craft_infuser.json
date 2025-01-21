@@ -1,0 +1,31 @@
+{
+    "format_version": "1.17.41",
+    "$schema": "https://aexer0e.github.io/bedrock-schema/",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "alchemycraft:craft_infuser"
+        },
+        "tags": ["crafting_table"],
+        "pattern": [
+            "CCC",
+            "CBC",
+            "CCC"
+        ],
+        "key": {
+            "C": "minecraft:copper_ingot",
+            "B": "minecraft:blaze_powder"
+        },
+        "unlock": [
+            {
+                "item": "minecraft:copper_ingot"
+            },
+            {
+                "item": "minecraft:blaze_powder"
+            }
+        ],
+        "result": {
+            "item": "alchemycraft:infuser",
+            "count": 1
+        }
+    }
+}

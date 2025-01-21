@@ -1,0 +1,91 @@
+{
+    "pools": [
+        {
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:written_book",
+					"weight": 1,
+					"count": 1,
+					"functions": [
+                        {
+                            "function": "set_book_contents",
+
+                            "author": "Quantum Cube Studios",
+                            "title": "book_brew.title",
+
+                            "pages": [
+                                "{\"rawtext\":[ {\"translate\":\"alchemy.book_brewing.page.title\"}]}",
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_brewing.page.intro\"}]}",
+
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_brewing.page.modifiers_intro\"}]}",
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_brewing.page.diamond_dust\"}]}",
+
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_brewing.page.glowstone_dust\"}]}",
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_brewing.page.redstone\"}]}",
+
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_brewing.page.potion_tier1\"}]}",
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_brewing.page.potion_slick\"}]}",
+
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_brewing.page.potion_elegant\"}]}",
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_brewing.page.potion_graceful\"}]}",
+
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_brewing.page.potion_tier2\"}]}",
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_brewing.page.potion_instant_health\"}]}",
+
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_brewing.page.potion_speed\"}]}",
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_brewing.page.potion_fire_resistance\"}]}",
+
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_brewing.page.potion_invisibility\"}]}",
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_brewing.page.potion_saturation\"}]}",
+
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_brewing.page.potion_xp\"}]}",
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_brewing.page.potion_haste\"}]}",
+
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_brewing.page.potion_regeneration\"}]}",
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_brewing.page.potion_night_vision\"}]}",
+
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_brewing.page.potion_water_breathing\"}]}",
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_brewing.page.blank\"}]}",
+								
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_brewing.page.potion_tier3\"}]}",
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_brewing.page.potion_jump_boost\"}]}",
+
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_brewing.page.potion_absorption\"}]}",
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_brewing.page.potion_resistance\"}]}",
+
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_brewing.page.potion_slow_falling\"}]}",
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_brewing.page.potion_village_hero\"}]}",
+
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_brewing.page.potion_strength\"}]}",
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_brewing.page.potion_health_boost\"}]}",
+
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_brewing.page.potion_levitation\"}]}",
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_brewing.page.blank\"}]}",
+
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_brewing.page.potion_tier4\"}]}",
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_brewing.page.potion_bloodlust\"}]}",
+
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_brewing.page.potion_colossus\"}]}",
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_brewing.page.potion_exploration\"}]}",
+
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_brewing.page.philosoper_flavor\"}]}",
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_brewing.page.philosoper_shard\"}]}",
+
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_brewing.page.enchanted_apple_riddle\"}]}",
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_brewing.page.netherstar_riddle\"}]}",
+
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_brewing.page.dragon_breath_riddle\"}]}",
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_brewing.page.blank\"}]}",
+
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_brewing.page.immortality\"}]}",
+								"{\"rawtext\":[ {\"translate\":\"alchemy.book_brewing.page.potion_life\"}]}"
+                            ]
+                        }
+					]
+				}
+			]
+		}
+    ]
+}

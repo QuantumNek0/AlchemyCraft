@@ -1,0 +1,30 @@
+{
+    "format_version": "1.21.10",
+    "minecraft:item": {
+      "description": {
+        "identifier": "alchemycraft:potion_absorption_potent3",
+        "menu_category": {
+          "category": "equipment",
+          "group": "itemGroup.name.potion"
+        }
+      },
+      "components": {
+          "minecraft:icon": "texture_potion_absorption_full",
+          "minecraft:food": {
+              "can_always_eat": true,
+              "nutrition": 0,
+              "saturation_modifier": 0,
+              "using_converts_to": "alchemycraft:potion_absorption_potent2"
+          },
+          "minecraft:max_stack_size": 1,
+          "minecraft:glint": false,
+  
+          "minecraft:use_animation": "drink",
+          "minecraft:use_modifiers": {
+              "use_duration": 1.6,
+              "movement_modifier": 0.35
+          },
+          "minecraft:custom_components": ["alchemycraft:potion_absorption"]
+      }
+    }
+  }

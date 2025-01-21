@@ -1,0 +1,132 @@
+{
+	"format_version": "1.21.20",
+	"minecraft:block": {
+		"description": {
+			"identifier": "alchemycraft:flower_slime",
+			"menu_category": {
+				"category": "none",
+				"is_hidden_in_commands": true
+			},
+			"states": {
+				"alchemycraft:growth": {
+					"values": {"min": 0, "max": 7}
+				}
+			}
+		},
+		"components": {
+			"minecraft:flammable": true,
+			"minecraft:collision_box": false,
+			"minecraft:geometry": "geometry.alchemy_flower_type2",
+			"minecraft:light_dampening": 0,
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": ["up"],
+						"block_filter": [
+							"minecraft:grass_block",
+							"minecraft:dirt"
+						]
+					}
+				]
+			}
+		},
+		"permutations": [
+			{
+				"condition": "q.block_state('alchemycraft:growth') <= 7",
+				"components": {
+					"minecraft:custom_components": ["alchemycraft:crop_growth"]
+				}
+			},
+			{
+				"condition": "q.block_state('alchemycraft:growth') < 7",
+				"components": {
+					"minecraft:loot": "loot_tables/blocks/alchemy_flower_slime_loot_young.json"
+				}
+			},
+			{
+				"condition": "q.block_state('alchemycraft:growth') >= 0",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "texture_flower_type2_stage0",
+							"render_method": "alpha_test",
+							"ambient_occlusion": false,
+							"face_dimming": false
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('alchemycraft:growth') >= 0",
+				"components": {
+					"minecraft:selection_box": {
+						"origin": [-6, 0, -6],
+						"size": [12, 10 ,12]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('alchemycraft:growth') >= 2",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "texture_flower_type2_stage1",
+							"render_method": "alpha_test",
+							"ambient_occlusion": false,
+							"face_dimming": false
+						}
+					}
+				}
+			},
+			{
+                "condition": "q.block_state('alchemycraft:growth') >= 2",
+                "components": {
+                    "minecraft:selection_box": {
+                        "origin": [-6, 0, -6],
+						"size": [12, 14 ,12]
+                    }
+                }
+            },
+			{
+				"condition": "q.block_state('alchemycraft:growth') >= 4",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "texture_flower_slime_stage2",
+							"render_method": "alpha_test",
+							"ambient_occlusion": false,
+							"face_dimming": false
+						}
+					}
+				}
+			},
+			{
+                "condition": "q.block_state('alchemycraft:growth') >= 4",
+                "components": {
+                    "minecraft:selection_box": {
+                        "origin": [-6, 0, -6],
+						"size": [12, 16 ,12]
+                    }
+                }
+            },
+			{
+				"condition": "q.block_state('alchemycraft:growth') == 7",
+				"components": {
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "texture_flower_slime_stage3",
+							"render_method": "alpha_test",
+							"ambient_occlusion": false,
+							"face_dimming": false
+						}
+					},
+					"minecraft:selection_box": {
+						"origin": [-6, 0, -6],
+						"size": [12, 16 ,12]
+					},
+					"minecraft:loot": "loot_tables/blocks/alchemy_flower_slime_loot_mature.json"
+				}
+			}
+		]
+	}
+}

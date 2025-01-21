@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:block": {
+		"description": {
+			"identifier": "alchemycraft:philosopher_display",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:crafting_table": {
+				"crafting_tags": ["transmutation"],
+				"table_name": "tile.alchemycraft:philosopher_display.table"
+			},
+			"minecraft:loot": "loot_tables/blocks/alchemy_philosopher_display_loot.json",
+			"minecraft:collision_box": true,
+			"minecraft:selection_box": true,
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.4
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 200
+			},
+			"minecraft:geometry": "geometry.philosopher_display",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "texture_philosopher_display",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:light_emission": 8,
+			"minecraft:light_dampening": 0,
+			"minecraft:map_color": "#e11616"
+		}
+	}
+}

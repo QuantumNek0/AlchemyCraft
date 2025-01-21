@@ -1,0 +1,31 @@
+{
+    "format_version": "1.17.41",
+    "$schema": "https://aexer0e.github.io/bedrock-schema/",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "alchemycraft:infuse_amethyst"
+        },
+        "tags": ["infuser"],
+        "pattern": [
+            "III",
+            "ISI",
+            "III"
+        ],
+        "key": {
+            "I": "minecraft:amethyst_shard",
+            "S": "minecraft:torchflower_seeds"
+        },
+        "unlock": [
+            {
+                "item": "minecraft:amethyst_shard"
+            },
+            {
+                "item": "minecraft:torchflower_seeds"
+            }
+        ],
+        "result": {
+            "item": "alchemycraft:seed_amethyst",
+            "count": 1
+        }
+    }
+}

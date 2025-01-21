@@ -1,0 +1,54 @@
+{
+	"format_version": "1.21.20",
+	"alchemycraft:philosopher_display": {
+		"sound": "glass"
+	},
+	"alchemycraft:infuser": {
+		"sound": "copper"
+	},
+	"alchemycraft:flower_emerald": {
+		"sound": "grass"
+	},
+	"alchemycraft:flower_spider": {
+		"sound": "grass"
+	},
+	"alchemycraft:flower_amethyst": {
+		"sound": "grass"
+	},
+	"alchemycraft:flower_apple": {
+		"sound": "grass"
+	},
+	"alchemycraft:flower_blaze": {
+		"sound": "grass"
+	},
+	"alchemycraft:flower_echo": {
+		"sound": "grass"
+	},
+	"alchemycraft:flower_ghast": {
+		"sound": "grass"
+	},
+	"alchemycraft:flower_quartz": {
+		"sound": "grass"
+	},
+	"alchemycraft:flower_armadillo": {
+		"sound": "grass"
+	},
+	"alchemycraft:flower_chorus": {
+		"sound": "grass"
+	},
+	"alchemycraft:flower_magma": {
+		"sound": "grass"
+	},
+	"alchemycraft:flower_phantom": {
+		"sound": "grass"
+	},
+	"alchemycraft:flower_prismarine": {
+		"sound": "grass"
+	},
+	"alchemycraft:flower_shulker": {
+		"sound": "grass"
+	},
+	"alchemycraft:flower_slime": {
+		"sound": "grass"
+	}
+}

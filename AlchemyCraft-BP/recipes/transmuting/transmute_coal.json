@@ -1,0 +1,27 @@
+{
+    "format_version": "1.17.41",
+    "$schema": "https://aexer0e.github.io/bedrock-schema/",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "alchemycraft:transmute_coal"
+        },
+        "tags": ["transmutation"],
+        "pattern": [
+            "CCC",
+            "CCC",
+            "CCC"
+        ],
+        "key": {
+            "C": "minecraft:coal"
+        },
+        "unlock": [
+            {
+                "item": "alchemycraft:philosopher_display"
+            }
+        ],
+        "result": {
+            "item": "minecraft:raw_iron",
+            "count": 1
+        }
+    }
+}

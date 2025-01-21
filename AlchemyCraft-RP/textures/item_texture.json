@@ -1,0 +1,273 @@
+{
+    "resource_pack_name": "Alchemy Craft Resource Pack",
+    "texture_name": "atlas.items",
+    "texture_data": {
+      "texture_philosopher_shard": {
+        "textures": "textures/items/alchemy_philosopher_shard_texture"
+      },
+      "texture_philosopher_stone": {
+        "textures": "textures/items/alchemy_philosopher_stone_texture"
+      },
+      "texture_ingredient_emerald": {
+        "textures": "textures/items/alchemy_ingredient_emerald_texture"
+      },
+      "texture_ingredient_diamond": {
+        "textures": "textures/items/alchemy_ingredient_diamond_texture"
+      },
+      "texture_seed_emerald": {
+        "textures": "textures/items/alchemy_seed_emerald_texture"
+      },
+      "texture_seed_diamond": {
+        "textures": "textures/items/alchemy_seed_diamond_texture"
+      },
+      "texture_seed_redstone": {
+        "textures": "textures/items/alchemy_seed_redstone_texture"
+      },
+      "texture_seed_glowstone": {
+        "textures": "textures/items/alchemy_seed_glowstone_texture"
+      },
+      "texture_seed_spider": {
+        "textures": "textures/items/alchemy_seed_spider_texture"
+      },
+      "texture_seed_amethyst": {
+        "textures": "textures/items/alchemy_seed_amethyst_texture"
+      },
+      "texture_seed_apple": {
+        "textures": "textures/items/alchemy_seed_apple_texture"
+      },
+      "texture_seed_blaze": {
+        "textures": "textures/items/alchemy_seed_blaze_texture"
+      },
+      "texture_seed_echo": {
+        "textures": "textures/items/alchemy_seed_echo_texture"
+      },
+      "texture_seed_ghast": {
+        "textures": "textures/items/alchemy_seed_ghast_texture"
+      },
+      "texture_seed_quartz": {
+        "textures": "textures/items/alchemy_seed_quartz_texture"
+      },
+      "texture_seed_armadillo": {
+        "textures": "textures/items/alchemy_seed_armadillo_texture"
+      },
+      "texture_seed_chorus": {
+        "textures": "textures/items/alchemy_seed_chorus_texture"
+      },
+      "texture_seed_magma": {
+        "textures": "textures/items/alchemy_seed_magma_texture"
+      },
+      "texture_seed_phantom": {
+        "textures": "textures/items/alchemy_seed_phantom_texture"
+      },
+      "texture_seed_prismarine": {
+        "textures": "textures/items/alchemy_seed_prismarine_texture"
+      },
+      "texture_seed_shulker": {
+        "textures": "textures/items/alchemy_seed_shulker_texture"
+      },
+      "texture_seed_slime": {
+        "textures": "textures/items/alchemy_seed_slime_texture"
+      },
+      "texture_potion_water_full": {
+        "textures": "textures/items/alchemy_potion_water_full_texture"
+      },
+      "texture_potion_honey_full": {
+        "textures": "textures/items/alchemy_potion_honey_full_texture"
+      },
+      "texture_potion_instant_health_full": {
+        "textures": "textures/items/alchemy_potion_instant_health_full_texture"
+      },
+      "texture_potion_instant_health_sipped": {
+        "textures": "textures/items/alchemy_potion_instant_health_sipped_texture"
+      },
+      "texture_potion_instant_health_third": {
+        "textures": "textures/items/alchemy_potion_instant_health_third_texture"
+      },
+      "texture_potion_absorption_full": {
+        "textures": "textures/items/alchemy_potion_absorption_full_texture"
+      },
+      "texture_potion_absorption_sipped": {
+        "textures": "textures/items/alchemy_potion_absorption_sipped_texture"
+      },
+      "texture_potion_absorption_third": {
+        "textures": "textures/items/alchemy_potion_absorption_third_texture"
+      },
+      "texture_potion_fire_resistance_full": {
+        "textures": "textures/items/alchemy_potion_fire_resistance_full_texture"
+      },
+      "texture_potion_fire_resistance_sipped": {
+        "textures": "textures/items/alchemy_potion_fire_resistance_sipped_texture"
+      },
+      "texture_potion_fire_resistance_third": {
+        "textures": "textures/items/alchemy_potion_fire_resistance_third_texture"
+      },
+      "texture_potion_resistance_full": {
+        "textures": "textures/items/alchemy_potion_resistance_full_texture"
+      },
+      "texture_potion_resistance_sipped": {
+        "textures": "textures/items/alchemy_potion_resistance_sipped_texture"
+      },
+      "texture_potion_resistance_third": {
+        "textures": "textures/items/alchemy_potion_resistance_third_texture"
+      },
+      "texture_potion_speed_full": {
+        "textures": "textures/items/alchemy_potion_speed_full_texture"
+      },
+      "texture_potion_speed_sipped": {
+        "textures": "textures/items/alchemy_potion_speed_sipped_texture"
+      },
+      "texture_potion_speed_third": {
+        "textures": "textures/items/alchemy_potion_speed_third_texture"
+      },
+      "texture_potion_jump_boost_full": {
+        "textures": "textures/items/alchemy_potion_jump_boost_full_texture"
+      },
+      "texture_potion_jump_boost_sipped": {
+        "textures": "textures/items/alchemy_potion_jump_boost_sipped_texture"
+      },
+      "texture_potion_jump_boost_third": {
+        "textures": "textures/items/alchemy_potion_jump_boost_third_texture"
+      },
+      "texture_potion_invisibility_full": {
+        "textures": "textures/items/alchemy_potion_invisibility_full_texture"
+      },
+      "texture_potion_invisibility_sipped": {
+        "textures": "textures/items/alchemy_potion_invisibility_sipped_texture"
+      },
+      "texture_potion_invisibility_third": {
+        "textures": "textures/items/alchemy_potion_invisibility_third_texture"
+      },
+      "texture_potion_slow_falling_full": {
+        "textures": "textures/items/alchemy_potion_slow_falling_full_texture"
+      },
+      "texture_potion_slow_falling_sipped": {
+        "textures": "textures/items/alchemy_potion_slow_falling_sipped_texture"
+      },
+      "texture_potion_slow_falling_third": {
+        "textures": "textures/items/alchemy_potion_slow_falling_third_texture"
+      },
+      "texture_potion_saturation_full": {
+        "textures": "textures/items/alchemy_potion_saturation_full_texture"
+      },
+      "texture_potion_saturation_sipped": {
+        "textures": "textures/items/alchemy_potion_saturation_sipped_texture"
+      },
+      "texture_potion_saturation_third": {
+        "textures": "textures/items/alchemy_potion_saturation_third_texture"
+      },
+      "texture_potion_xp_full": {
+        "textures": "textures/items/alchemy_potion_xp_full_texture"
+      },
+      "texture_potion_xp_sipped": {
+        "textures": "textures/items/alchemy_potion_xp_sipped_texture"
+      },
+      "texture_potion_xp_third": {
+        "textures": "textures/items/alchemy_potion_xp_third_texture"
+      },
+      "texture_potion_village_hero_full": {
+        "textures": "textures/items/alchemy_potion_village_hero_full_texture"
+      },
+      "texture_potion_village_hero_sipped": {
+        "textures": "textures/items/alchemy_potion_village_hero_sipped_texture"
+      },
+      "texture_potion_village_hero_third": {
+        "textures": "textures/items/alchemy_potion_village_hero_third_texture"
+      },
+      "texture_potion_haste_full": {
+        "textures": "textures/items/alchemy_potion_haste_full_texture"
+      },
+      "texture_potion_haste_sipped": {
+        "textures": "textures/items/alchemy_potion_haste_sipped_texture"
+      },
+      "texture_potion_haste_third": {
+        "textures": "textures/items/alchemy_potion_haste_third_texture"
+      },
+      "texture_potion_strength_full": {
+        "textures": "textures/items/alchemy_potion_strength_full_texture"
+      },
+      "texture_potion_strength_sipped": {
+        "textures": "textures/items/alchemy_potion_strength_sipped_texture"
+      },
+      "texture_potion_strength_third": {
+        "textures": "textures/items/alchemy_potion_strength_third_texture"
+      },
+      "texture_potion_regeneration_full": {
+        "textures": "textures/items/alchemy_potion_regeneration_full_texture"
+      },
+      "texture_potion_regeneration_sipped": {
+        "textures": "textures/items/alchemy_potion_regeneration_sipped_texture"
+      },
+      "texture_potion_regeneration_third": {
+        "textures": "textures/items/alchemy_potion_regeneration_third_texture"
+      },
+      "texture_potion_health_boost_full": {
+        "textures": "textures/items/alchemy_potion_health_boost_full_texture"
+      },
+      "texture_potion_health_boost_sipped": {
+        "textures": "textures/items/alchemy_potion_health_boost_sipped_texture"
+      },
+      "texture_potion_health_boost_third": {
+        "textures": "textures/items/alchemy_potion_health_boost_third_texture"
+      },
+      "texture_potion_night_vision_full": {
+        "textures": "textures/items/alchemy_potion_night_vision_full_texture"
+      },
+      "texture_potion_night_vision_sipped": {
+        "textures": "textures/items/alchemy_potion_night_vision_sipped_texture"
+      },
+      "texture_potion_night_vision_third": {
+        "textures": "textures/items/alchemy_potion_night_vision_third_texture"
+      },
+      "texture_potion_levitation_full": {
+        "textures": "textures/items/alchemy_potion_levitation_full_texture"
+      },
+      "texture_potion_levitation_sipped": {
+        "textures": "textures/items/alchemy_potion_levitation_sipped_texture"
+      },
+      "texture_potion_levitation_third": {
+        "textures": "textures/items/alchemy_potion_levitation_third_texture"
+      },
+      "texture_potion_water_breathing_full": {
+        "textures": "textures/items/alchemy_potion_water_breathing_full_texture"
+      },
+      "texture_potion_water_breathing_sipped": {
+        "textures": "textures/items/alchemy_potion_water_breathing_sipped_texture"
+      },
+      "texture_potion_water_breathing_third": {
+        "textures": "textures/items/alchemy_potion_water_breathing_third_texture"
+      },
+      "texture_potion_graceful_full": {
+        "textures": "textures/items/alchemy_potion_graceful_full_texture"
+      },
+      "texture_potion_bloodlust_full": {
+        "textures": "textures/items/alchemy_potion_bloodlust_full_texture"
+      },
+      "texture_potion_bloodlust_sipped": {
+        "textures": "textures/items/alchemy_potion_bloodlust_sipped_texture"
+      },
+      "texture_potion_bloodlust_third": {
+        "textures": "textures/items/alchemy_potion_bloodlust_third_texture"
+      },
+      "texture_potion_colossus_full": {
+        "textures": "textures/items/alchemy_potion_colossus_full_texture"
+      },
+      "texture_potion_colossus_sipped": {
+        "textures": "textures/items/alchemy_potion_colossus_sipped_texture"
+      },
+      "texture_potion_colossus_third": {
+        "textures": "textures/items/alchemy_potion_colossus_third_texture"
+      },
+      "texture_potion_exploration_full": {
+        "textures": "textures/items/alchemy_potion_exploration_full_texture"
+      },
+      "texture_potion_exploration_sipped": {
+        "textures": "textures/items/alchemy_potion_exploration_sipped_texture"
+      },
+      "texture_potion_exploration_third": {
+        "textures": "textures/items/alchemy_potion_exploration_third_texture"
+      },
+      "texture_potion_life_full": {
+        "textures": "textures/items/alchemy_potion_life_full_texture"
+      }
+    }
+}

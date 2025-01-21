@@ -1,0 +1,12 @@
+{
+    "format_version": "1.17.41",
+    "minecraft:recipe_brewing_mix": {
+        "description": {
+            "identifier": "alchemycraft:brew_elegant_echo_shard"
+        },
+        "tags": ["brewing_stand"],
+        "input": "alchemycraft:potion_elegant",
+        "reagent": "minecraft:echo_shard",
+        "output": "alchemycraft:potion_xp_base"
+    }
+}

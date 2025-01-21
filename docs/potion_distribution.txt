@@ -1,0 +1,39 @@
+*: Unique effect, not stackable with other unique effects
+
+Early Game Potions:
+	speed
+	instant_health
+	jump_boost
+	resistance*
+	fire_resistance
+	invisibility
+	saturation
+	absorbtion*
+	slow_falling
+
+Mid Game Potions:
+	haste
+	strength*
+	regeneration*
+	water_breathing
+	night_vision
+	health_boost*
+	xp_gain
+	village_hero
+	levitation
+
+Late Game Potions:
+	tank_elixir*:
+		health_boost
+		resistance
+		regeneration
+	dps_elixir*:
+		absorbtion
+		strength
+		speed
+	miner_elixir*:
+		haste
+		night_vision
+		jump_boost
+		water_breathing
+		slow_falling

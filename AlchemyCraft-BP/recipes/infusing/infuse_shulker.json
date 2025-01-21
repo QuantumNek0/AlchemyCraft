@@ -1,0 +1,31 @@
+{
+    "format_version": "1.17.41",
+    "$schema": "https://aexer0e.github.io/bedrock-schema/",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "alchemycraft:infuse_shulker"
+        },
+        "tags": ["infuser"],
+        "pattern": [
+            "III",
+            "ISI",
+            "III"
+        ],
+        "key": {
+            "I": "minecraft:shulker_shell",
+            "S": "minecraft:pitcher_pod"
+        },
+        "unlock": [
+            {
+                "item": "minecraft:shulker_shell"
+            },
+            {
+                "item": "minecraft:pitcher_pod"
+            }
+        ],
+        "result": {
+            "item": "alchemycraft:seed_shulker",
+            "count": 1
+        }
+    }
+}

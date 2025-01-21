@@ -1,0 +1,27 @@
+{
+    "format_version": "1.17.41",
+    "$schema": "https://aexer0e.github.io/bedrock-schema/",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "alchemycraft:transmute_iron"
+        },
+        "tags": ["transmutation"],
+        "pattern": [
+            "III",
+            "III",
+            "III"
+        ],
+        "key": {
+            "I": "minecraft:raw_iron"
+        },
+        "unlock": [
+            {
+                "item": "alchemycraft:philosopher_display"
+            }
+        ],
+        "result": {
+            "item": "minecraft:raw_gold",
+            "count": 1
+        }
+    }
+}

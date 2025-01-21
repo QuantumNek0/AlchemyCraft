@@ -1,0 +1,31 @@
+{
+    "format_version": "1.17.41",
+    "$schema": "https://aexer0e.github.io/bedrock-schema/",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "alchemycraft:infuse_slime"
+        },
+        "tags": ["infuser"],
+        "pattern": [
+            "III",
+            "ISI",
+            "III"
+        ],
+        "key": {
+            "I": "minecraft:slime_ball",
+            "S": "minecraft:pitcher_pod"
+        },
+        "unlock": [
+            {
+                "item": "minecraft:slime_ball"
+            },
+            {
+                "item": "minecraft:pitcher_pod"
+            }
+        ],
+        "result": {
+            "item": "alchemycraft:seed_slime",
+            "count": 1
+        }
+    }
+}

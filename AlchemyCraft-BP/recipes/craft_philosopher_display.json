@@ -1,0 +1,29 @@
+{
+    "format_version": "1.17.41",
+    "$schema": "https://aexer0e.github.io/bedrock-schema/",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "alchemycraft:craft_philosopher_display"
+        },
+        "tags": ["crafting_table"],
+        "pattern": [
+            "GGG",
+            "GPG",
+            "WWW"
+        ],
+        "key": {
+            "G": "minecraft:glass",
+            "P": "alchemycraft:philosopher_stone",
+            "W": "minecraft:planks"
+        },
+        "unlock": [
+            {
+                "item": "alchemycraft:philosopher_stone"
+            }
+        ],
+        "result": {
+            "item": "alchemycraft:philosopher_display",
+            "count": 1
+        }
+    }
+}

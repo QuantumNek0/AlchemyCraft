@@ -1,0 +1,44 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Alchemy Craft",
+		"description": "The behavior pack for the Alchemy Craft Add-On by Quantum Cube Studios",
+		"uuid": "03f56198-92e3-4ae0-8072-d3a263715416",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 21, 20]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "de235924-c68b-4de5-b406-0ac68b342c5a",
+			"version": [1, 0, 0]
+		},
+		{
+			"type": "script",
+			"language": "Javascript",
+			"entry": "index.js",
+			"uuid": "415e698e-d2f0-4687-8cd0-a14b446bf53b",
+			"version": [1, 0, 0]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "fc86b353-521e-4708-994a-e0811336e98c",
+			"version": [1, 0, 0]
+		},
+		{
+			"module_name": "@minecraft/common",
+			"version": "1.2.0"
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.13.0"
+		}
+	],
+	"metadata": {
+		"authors": ["Quantum Cube Studios"],
+		"generated_with": {
+			"blockbench_block_wizard": ["1.2.2"]
+		}
+	}
+}

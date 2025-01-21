@@ -1,0 +1,12 @@
+{
+    "format_version": "1.17.41",
+    "minecraft:recipe_brewing_mix": {
+        "description": {
+            "identifier": "alchemycraft:brew_slick_sugar"
+        },
+        "tags": ["brewing_stand"],
+        "input": "alchemycraft:potion_slick",
+        "reagent": "minecraft:sugar",
+        "output": "alchemycraft:potion_speed_base"
+    }
+}
